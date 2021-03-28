@@ -8,6 +8,7 @@ I made this page to help me as I struggled with problems above and I hoping it c
 
 ## Future Goals
 - Ensure that site is responsive to be able to view on mobile, tablet and web devices.
+- Nav Bar
 - Add specialist Frameworks like DDaT, Commercial and Project Delivery.
 - Add function at top to hide or view certain boxes
 - Integrate in to my main site and then use Hexo to generate the page using MD tables or CSV files
