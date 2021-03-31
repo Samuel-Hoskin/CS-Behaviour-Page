@@ -14,4 +14,5 @@ I made this page to help me as I struggled with problems above and I hoping it c
 - Add function at top to hide or view certain boxes
 - Integrate in to my main site and then use Hexo to generate the page using MD tables or CSV files
 - Re-Desgin in line with GDS style Guide
+- Meet Accessability Requirements
 
