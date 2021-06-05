@@ -221,7 +221,7 @@ body {
   }
   
   .accordion__label {
-    padding: 14px 20px;
+/*    padding: 14px 20px;*/
   }
   
   .accordion__label {
@@ -232,7 +232,9 @@ body {
   }
   
   .accordion__label:hover {
-    background: grey;
+    background: lightgray;
+    border-width: 2px;
+    border-radius: 10px;
   }
   
   .accordion__label::after {
@@ -243,25 +245,31 @@ body {
     right: 20px;
     width: 12px;
     height: 6px;
-    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%23FFFFFF99;" /></svg>');
+    background-image: url('data:image/svg+xml;utf8,<svg width="100" height="50" xmlns="http://www.w3.org/2000/svg"><polygon points="0,0 100,0 50,50" style="fill:%2300000099;" /></svg>');
     background-size: contain;
     transition: transform 0.4s;
   }
   
   .accordion__content {
-    
+    transition: ease 1s;
     display: none;
   }
   
   .accordion__input {
     display: none;
+    
   }
   
   .accordion__input:checked ~ .accordion__content {
     display: block;
+    
   }
   
   .accordion__input:checked ~ .accordion__label::after {
     transform: translateY(-50%) rotate(0.5turn);
   }
   
+  h2 {
+      padding: 19.92px 0px;
+      margin: 0px;
+  }
