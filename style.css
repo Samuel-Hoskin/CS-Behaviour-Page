@@ -4477,7 +4477,7 @@
   
   .govuk-notification-banner__content > * {
     box-sizing: border-box;
-    max-width: 605px;
+    max-width: 100%;
   }
   
   .govuk-notification-banner__content > :last-child {
