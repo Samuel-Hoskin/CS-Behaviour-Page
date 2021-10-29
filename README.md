@@ -8,6 +8,7 @@ This is static web page that brings together all of the key documents you need w
 I made this page to help me as I struggled with problems above and I hoping it can help others.
 
 ## Future Goals
+- Make Sure it is Accessible!!!!! 
 - Ensure that site is responsive to be able to view on mobile, tablet and web devices.
 - Nav Bar, especally for mobile
 - Add specialist Frameworks like DDaT, Commercial and Project Delivery.
